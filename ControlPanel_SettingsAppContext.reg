@@ -1,0 +1,211 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings]
+"Position"="Middle"
+"Icon"="SystemSettingsBroker.exe"
+"SubCommands"=""
+
+; Settings home
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\01subcmd]
+"Icon"="SystemSettingsBroker.exe"
+"MUIVerb"="Settings"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\01subcmd\command]
+@="explorer ms-settings:"
+
+; System
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\02subcmd]
+"CommandFlags"=dword:00000020
+"MUIVerb"="System"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\02subcmd\command]
+@="explorer ms-settings:display"
+
+; Devices
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\03subcmd]
+"MUIVerb"="Devices"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\03subcmd\command]
+@="explorer ms-settings:bluetooth"
+
+; Network & Internet
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\04subcmd]
+"MUIVerb"="Network && Internet"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\04subcmd\command]
+@="explorer ms-settings:network"
+
+; Personalization
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\05subcmd]
+"MUIVerb"="Personalization"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\05subcmd\command]
+@="explorer ms-settings:personalization"
+
+; Apps
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\06subcmd]
+"MUIVerb"="Apps"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\06subcmd\command]
+@="explorer ms-settings:appsfeatures"
+
+; Accounts
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\07subcmd]
+"MUIVerb"="Accounts"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\07subcmd\command]
+@="explorer ms-settings:yourinfo"
+
+; Time & language
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\08subcmd]
+"MUIVerb"="Time && language"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\08subcmd\command]
+@="explorer ms-settings:dateandtime"
+
+; Gaming
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\09subcmd]
+"MUIVerb"="Gaming"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\09subcmd\command]
+@="explorer ms-settings:gaming-gamebar"
+
+; Ease of Access
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\10subcmd]
+"MUIVerb"="Ease of Access"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\10subcmd\command]
+@="explorer ms-settings:easeofaccess-narrator"
+
+; Cortana
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\11subcmd]
+"MUIVerb"="Cortana"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\11subcmd\command]
+@="explorer ms-settings:cortana"
+
+; Privacy
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\12subcmd]
+"MUIVerb"="Privacy"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\12subcmd\command]
+@="explorer ms-settings:privacy"
+
+; Update & security
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\13subcmd]
+"MUIVerb"="Update && security"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\13subcmd\command]
+@="explorer ms-settings:windowsupdate"
+
+; Mixed Reality
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\14subcmd]
+"MUIVerb"="Mixed Reality"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\14subcmd\command]
+@="explorer ms-settings:holographic"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel]
+"Icon"="%SystemRoot%\\System32\\SHELL32.dll,-22"
+"Position"="Middle"
+"SubCommands"=""
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\01subcmd]
+"Icon"="%SystemRoot%\\System32\\SHELL32.dll,-22"
+"MUIVerb"="Control Panel"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\01subcmd\command]
+@="rundll32.exe shell32.dll,Control_RunDLL"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\02subcmd]
+"Icon"="%SystemRoot%\\System32\\Vault.dll,-1"
+"MUIVerb"="Credential Manager"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\02subcmd\command]
+@="control /name Microsoft.CredentialManager"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\03subcmd]
+"Icon"="%SystemRoot%\\System32\\imageres.dll,-24"
+"MUIVerb"="Default Programs"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\03subcmd\command]
+@="control /name Microsoft.DefaultPrograms"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\04subcmd]
+"Icon"="%SystemRoot%\\System32\\DeviceCenter.dll,-1"
+"MUIVerb"="Devices and Printers"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\04subcmd\command]
+@="control /name Microsoft.DevicesAndPrinters"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\05subcmd]
+"Icon"="%SystemRoot%\\System32\\Display.dll,-1"
+"MUIVerb"="Display"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\05subcmd\command]
+@="control /name Microsoft.Display"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\06subcmd]
+"Icon"="%SystemRoot%\\System32\\inetcpl.cpl,-4487"
+"MUIVerb"="Indernet Options"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\06subcmd\command]
+@="control /name Microsoft.InternetOptions"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\07subcmd]
+"Icon"="%SystemRoot%\\System32\\UserLanguagesCpl.dll,-1"
+"MUIVerb"="Language"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\07subcmd\command]
+@="control /name Microsoft.Language"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\08subcmd]
+"Icon"="%SystemRoot%\\System32\\netcenter.dll,-1"
+"MUIVerb"="Network and Sharing Center"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\08subcmd\command]
+@="control /name Microsoft.NetworkAndSharingCenter"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\09subcmd]
+"Icon"="%SystemRoot%\\System32\\powercpl.dll,-1"
+"MUIVerb"="Power Options"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\09subcmd\command]
+@="control /name Microsoft.PowerOptions"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\10subcmd]
+"Icon"="%SystemRoot%\\System32\\imageres.dll,-87"
+"MUIVerb"="Programs and Features"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\10subcmd\command]
+@="control appwiz.cpl"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\11subcmd]
+"Icon"="%SystemRoot%\\System32\\mmsys.cpl,-100"
+"MUIVerb"="Sound"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\11subcmd\command]
+@="control /name Microsoft.Sound"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\12subcmd]
+"Icon"="%SystemRoot%\\System32\\imageres.dll,-149"
+"MUIVerb"="System"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\12subcmd\command]
+@="control /name Microsoft.System"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\13subcmd]
+"Icon"="%SystemRoot%\\System32\\usercpl.dll,-1"
+"MUIVerb"="User Accounts"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\13subcmd\command]
+@="control /name Microsoft.UserAccounts"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\14subcmd]
+"Icon"="%SystemRoot%\\System32\\FirewallControlPanel.dll,-1"
+"MUIVerb"="Windows Firewall"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\Control Panel\shell\14subcmd\command]
+@="control /name Microsoft.WindowsFirewall"
