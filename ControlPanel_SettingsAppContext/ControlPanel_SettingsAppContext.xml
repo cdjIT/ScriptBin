@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="HKEY_CURRENT_USER">
+  <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="SOFTWARE">
+    <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Classes">
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="DesktopBackground">
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Shell">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Settings">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Position" descr="Imported Reg File" image="7">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings" name="Position" default="0" type="REG_SZ" displayDecimal="0" value="Middle" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="SystemSettingsBroker.exe" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubCommands" descr="Imported Reg File" image="7">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings" name="SubCommands" default="0" type="REG_SZ" displayDecimal="0" value="" />
+            </Registry>
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="shell">
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="01subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\01subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="SystemSettingsBroker.exe" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\01subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Settings" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\01subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="02subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="CommandFlags" descr="Imported Reg File" image="17">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\02subcmd" name="CommandFlags" default="0" type="REG_DWORD" displayDecimal="0" value="00000020" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\02subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="System" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\02subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:display" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="03subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\03subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Devices" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\03subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:bluetooth" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="04subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\04subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Network &amp;&amp; Internet" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\04subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:network" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="05subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\05subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Personalization" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\05subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:personalization" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="06subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\06subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Apps" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\06subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:appsfeatures" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="07subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\07subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Accounts" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\07subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:yourinfo" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="08subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\08subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Time &amp;&amp; language" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\08subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:dateandtime" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="09subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\09subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Gaming" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\09subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:gaming-gamebar" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="10subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\10subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Ease of Access" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\10subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:easeofaccess-narrator" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="11subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\11subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Cortana" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\11subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:cortana" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="12subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\12subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Privacy" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\12subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:privacy" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="13subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\13subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Update &amp;&amp; security" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\13subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:windowsupdate" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="14subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\14subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Mixed Reality" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\14subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="explorer ms-settings:holographic" />
+                  </Registry>
+                </Collection>
+              </Collection>
+            </Collection>
+          </Collection>
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Control Panel">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\SHELL32.dll,-22" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Position" descr="Imported Reg File" image="7">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel" name="Position" default="0" type="REG_SZ" displayDecimal="0" value="Middle" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubCommands" descr="Imported Reg File" image="7">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel" name="SubCommands" default="0" type="REG_SZ" displayDecimal="0" value="" />
+            </Registry>
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="shell">
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="01subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\01subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\SHELL32.dll,-22" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\01subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Control Panel" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\01subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="rundll32.exe shell32.dll,Control_RunDLL" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="02subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\02subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\Vault.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\02subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Credential Manager" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\02subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.CredentialManager" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="03subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\03subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\imageres.dll,-24" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\03subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Default Programs" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\03subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.DefaultPrograms" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="04subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\04subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\DeviceCenter.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\04subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Devices and Printers" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\04subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.DevicesAndPrinters" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="05subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\05subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\Display.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\05subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Display" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\05subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.Display" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="06subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\06subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\inetcpl.cpl,-4487" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\06subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Indernet Options" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\06subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.InternetOptions" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="07subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\07subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\UserLanguagesCpl.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\07subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Language" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\07subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.Language" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="08subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\08subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\netcenter.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\08subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Network and Sharing Center" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\08subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.NetworkAndSharingCenter" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="09subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\09subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\powercpl.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\09subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Power Options" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\09subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.PowerOptions" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="10subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\10subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\imageres.dll,-87" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\10subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Programs and Features" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\10subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control appwiz.cpl" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="11subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\11subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\mmsys.cpl,-100" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\11subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Sound" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\11subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.Sound" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="12subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\12subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\imageres.dll,-149" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\12subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="System" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\12subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.System" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="13subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\13subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\usercpl.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\13subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="User Accounts" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\13subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.UserAccounts" />
+                  </Registry>
+                </Collection>
+              </Collection>
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="14subcmd">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Icon" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\14subcmd" name="Icon" default="0" type="REG_SZ" displayDecimal="0" value="%SystemRoot%\System32\FirewallControlPanel.dll,-1" />
+                </Registry>
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="MUIVerb" descr="Imported Reg File" image="7">
+                  <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\14subcmd" name="MUIVerb" default="0" type="REG_SZ" displayDecimal="0" value="Windows Firewall" />
+                </Registry>
+                <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="command">
+                  <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="" descr="Imported Reg File" image="7">
+                    <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Classes\DesktopBackground\Shell\Control Panel\shell\14subcmd\command" name="" default="1" type="REG_SZ" displayDecimal="0" value="control /name Microsoft.WindowsFirewall" />
+                  </Registry>
+                </Collection>
+              </Collection>
+            </Collection>
+          </Collection>
+        </Collection>
+      </Collection>
+    </Collection>
+  </Collection>
+</Collection>
